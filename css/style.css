@@ -9,8 +9,14 @@ img {
 [class*="col-"] {
   padding-bottom: 30px;
 }
-h1 {
+h1, h2 {
   padding-bottom: 30px;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  text-decoration: underline;
 }
 h3 {
   padding: 30px 0 10px 0;
@@ -20,6 +26,7 @@ hr {
 }
 p {
   font-weight: 400;
+  padding: 0 30px;
 }
 .container {
   text-align: center;
@@ -29,6 +36,9 @@ p {
 /* STEPS */
 #steps {
   background-color: lightgray;
+}
+#steps p {
+  font-variant: all-petite-caps;
 }
 
 /* WHY */
